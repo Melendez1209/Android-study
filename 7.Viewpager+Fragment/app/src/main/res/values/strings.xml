@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">仿微信（Viewpager+Fragment）</string>
-    <string name="page1">首页</string>
-    <string name="page2">第二页</string>
-    <string name="page3">第三页</string>
-    <string name="page4">第四页</string>
-</resources>
