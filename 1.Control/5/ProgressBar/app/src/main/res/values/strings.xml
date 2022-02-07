@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProgressBar</string>
+    <string name="start_or_stop">Start_or_Stop</string>
+    <string name="Progress_plus">进度增加</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--容器-->
+
+    <TextView
+        android:id="@+id/首个控件"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:shadowColor="@color/green"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="3"
+        android:singleLine="true"
+        android:text="@string/melendez"
+        android:textColor="@color/grey"
+        android:textSize="14pt"
+        android:textStyle="italic">
+        <!--焦点获取-->
+        <requestFocus />
+
+    </TextView>
+</LinearLayout>

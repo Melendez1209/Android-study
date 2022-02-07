@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingConstraints">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="InefficientWeight" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2,3">
+
+        <TableRow tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/page1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page1"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/page2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page2"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/page3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page3"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/page4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page4"
+                tools:ignore="ButtonStyle" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

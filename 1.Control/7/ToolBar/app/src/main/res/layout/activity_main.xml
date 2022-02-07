@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/TB"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellow"
+        app:logo="@mipmap/ic_launcher"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
+        app:subtitle="@string/son_title"
+        app:subtitleTextColor="@color/purple_700"
+        app:title="@string/app_name"
+        app:titleMarginStart="10dp"
+        app:titleTextColor="@color/teal_700" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="@string/app_name" />
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

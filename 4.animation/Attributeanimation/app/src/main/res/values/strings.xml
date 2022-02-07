@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Attribute animation</string>
+    <string name="button">Button</string>
+    <string name="hello_world">Hello World</string>
+</resources>

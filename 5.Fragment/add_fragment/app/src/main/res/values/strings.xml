@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">add_fragment</string>
+    <string name="blank">空界面</string>
+    <string name="list">列表界面</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

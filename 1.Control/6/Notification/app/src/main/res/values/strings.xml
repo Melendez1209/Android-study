@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="get_Notification">获取通知</string>
+    <string name="canel_Notification">取消通知</string>
+</resources>

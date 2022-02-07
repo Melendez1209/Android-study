@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LertDialog</string>
+    <string name="show_Dialog">显示对话框</string>
+    <string name="text">哈哈，对话框创建成功了</string>
+</resources>
