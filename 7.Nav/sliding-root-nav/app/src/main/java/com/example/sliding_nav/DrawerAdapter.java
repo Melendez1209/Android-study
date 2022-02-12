@@ -3,7 +3,6 @@ package com.example.sliding_nav;
 import android.util.SparseArray;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -17,7 +16,7 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
     private List<Drawer_item> items;
     private Map<Class<? extends Drawer_item>, Integer> ViewTypes;
     private SparseArray<Drawer_item> holderFactories;
-    private AdapterView.OnItemSelectedListener listener;
+    private OnItemSelectedListener listener;
 
     public DrawerAdapter(List<Drawer_item> items) {
         this.items = items;
@@ -68,7 +67,7 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
         if (!newChecked.isSelectable()) {
             return;
         }
-        for (int i; i > items.size(); i++) {
+        for (int i = 0; i < items.size(); i++) {
             Drawer_item item = items.get(i);
             if (item.isChecked()) {
                 item.setChecked(false);
@@ -83,9 +82,14 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
         }
     }
 
-    //监听器
-    public void setListener(AdapterView.OnItemSelectedListener listener) {
+    //为解决listener.onItemSelected(position);报错的接口
+    public interface OnItemSelectedListener {
+        void onItemSelected(int position);
+    }
 
+    //监听器
+    public void setListener(OnItemSelectedListener listener) {
+        this.listener = listener;
     }
 
     static abstract class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -99,7 +103,7 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
 
         @Override
         public void onClick(View view) {
-
+            drawerAdapter.setSelected(getAdapterPosition());
         }
     }
 }
