@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Codes/Android/7.Nav/sliding-root-nav/app/src/main/res/layout/activity_main.xml" value="0.1195945945945946" />
         <entry key="..\:/Codes/Android/7.Nav/sliding-root-nav/app/src/main/res/layout/drawer_menu.xml" value="0.12905405405405404" />
+        <entry key="..\:/Codes/Android/7.Nav/sliding-root-nav/app/src/main/res/layout/item_option.xml" value="0.2" />
       </map>
     </option>
   </component>
@@ -13,5 +14,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
   </component>
 </project>
