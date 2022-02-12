@@ -23,23 +23,31 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
         this.items = items;
         this.ViewTypes = new HashMap<>();
         this.holderFactories = new SparseArray<>();
+        viewStatement();
+
+
+    }
+
+    private void viewStatement() {
 
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return null;
+        ViewHolder holder = holderFactories.get(viewType).createViewHolder(parent);
+        holder.drawerAdapter = this;
+        return holder;
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-
+        items.get(position).bindViewHolder(holder);
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return items.size();
     }
 
     static abstract class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
