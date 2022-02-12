@@ -1,7 +1,9 @@
 package com.example.sliding_nav;
 
+import android.util.SparseArray;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -13,6 +15,8 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
     //全局变量
     private List<Drawer_item> items;
     private Map<Class<? extends Drawer_item>, Integer> ViewTepys;
+    private SparseArray<Drawer_item> holderFactories;
+    private AdapterView.OnItemSelectedListener listener;
 
     @NonNull
     @Override
