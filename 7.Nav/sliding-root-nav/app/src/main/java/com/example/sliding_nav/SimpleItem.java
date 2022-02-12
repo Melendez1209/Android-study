@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 
 public class SimpleItem extends Drawer_item<SimpleItem.ViewHolder> {
     //全局变量
-    //用于区分是否选择
+    //用于区分是否绑定
     private int selectedItemIconTint;
     private int selectedItemTextTint;
 
@@ -38,8 +38,15 @@ public class SimpleItem extends Drawer_item<SimpleItem.ViewHolder> {
         //图像
         Holder.icon.setImageDrawable(icon);
 
+        //区分是否绑定
+        //文本
+        Holder.title.setText(isChecked ? selectedItemTextTint : normalItemTextTint);
+        //图像
+        Holder.icon.setColorFilter(isChecked ? selectedItemIconTint : normalItemIconTint);
+
     }
 
+    //下次12：54
     //为视图持有者创建一个内部类
     static class ViewHolder extends DrawerAdapter.ViewHolder {
 
