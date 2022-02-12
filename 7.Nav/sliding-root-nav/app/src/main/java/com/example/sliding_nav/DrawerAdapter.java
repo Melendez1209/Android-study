@@ -8,15 +8,23 @@ import android.widget.AdapterView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder> {
     //全局变量
     private List<Drawer_item> items;
-    private Map<Class<? extends Drawer_item>, Integer> ViewTepys;
+    private Map<Class<? extends Drawer_item>, Integer> ViewTypes;
     private SparseArray<Drawer_item> holderFactories;
     private AdapterView.OnItemSelectedListener listener;
+
+    public DrawerAdapter(List<Drawer_item> items) {
+        this.items = items;
+        this.ViewTypes = new HashMap<>();
+        this.holderFactories = new SparseArray<>();
+
+    }
 
     @NonNull
     @Override
