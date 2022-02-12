@@ -29,7 +29,14 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
     }
 
     private void viewStatement() {
-
+        int type = 0;
+        for (Drawer_item item : items) {
+            if (!ViewTypes.containsKey(item.getClass())) {
+                ViewTypes.put(item.getClass(), type);
+                holderFactories.put(type, item);
+                type++;
+            }
+        }
     }
 
     @NonNull
@@ -46,8 +53,39 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
     }
 
     @Override
+    public int getItemViewType(int position) {
+        return ViewTypes.get(items.get(position).getClass());
+    }
+
+    @Override
     public int getItemCount() {
         return items.size();
+    }
+
+    //抽屉中创建项目
+    public void setSelected(int position) {
+        Drawer_item newChecked = items.get(position);
+        if (!newChecked.isSelectable()) {
+            return;
+        }
+        for (int i; i > items.size(); i++) {
+            Drawer_item item = items.get(i);
+            if (item.isChecked()) {
+                item.setChecked(false);
+                notifyItemChanged(i);
+                break;
+            }
+        }
+        newChecked.setChecked(true);
+        notifyItemChanged(position);
+        if (listener != null) {
+            listener.onItemSelected(position);
+        }
+    }
+
+    //监听器
+    public void setListener(AdapterView.OnItemSelectedListener listener) {
+
     }
 
     static abstract class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
