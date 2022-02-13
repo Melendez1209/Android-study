@@ -1,5 +1,6 @@
 package com.example.sliding_nav;
 
+import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -16,7 +17,15 @@ public class SpaceItem extends Drawer_item<SpaceItem.ViewHolder> {
 
     @Override
     public ViewHolder createViewHolder(ViewGroup parent) {
-        return null;
+        //创建空间视图
+        Context c = parent.getContext();
+        View view = new View(c);
+        int height = (int) (c.getResources().getDisplayMetrics().density * spaceDp);
+        view.setLayoutParams(new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                height
+        ));
+        return new ViewHolder(view);
     }
 
     @Override
