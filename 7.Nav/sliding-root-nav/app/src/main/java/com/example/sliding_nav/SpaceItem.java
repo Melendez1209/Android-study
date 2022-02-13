@@ -33,6 +33,12 @@ public class SpaceItem extends Drawer_item<SpaceItem.ViewHolder> {
 
     }
 
+    //为片段位置声明整数变量
+    @Override
+    public boolean isSelectable() {
+        return false;
+    }
+
     //内部视图持有人类
     public class ViewHolder extends DrawerAdapter.ViewHolder {
 
