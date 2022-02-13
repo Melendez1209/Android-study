@@ -7,3 +7,13 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repositories/public' }
+        google()
+        mavenCentral()
+        //HMS
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url 'https://jitpack.io' }
+    }
+}

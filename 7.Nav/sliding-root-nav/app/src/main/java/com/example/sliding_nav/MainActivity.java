@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
     //滑动根导航变量
     //16:39
-    private
+    private SlidingRootNav
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
