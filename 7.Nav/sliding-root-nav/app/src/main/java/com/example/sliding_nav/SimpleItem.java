@@ -46,7 +46,31 @@ public class SimpleItem extends Drawer_item<SimpleItem.ViewHolder> {
 
     }
 
-    //下次12：54
+    //为未选项目设置图标
+    public SimpleItem withSelectedIconTint(int selectedItemIconTint) {
+        this.selectedItemIconTint = selectedItemIconTint;
+        return this;
+    }
+
+    //为未选项目设置文本
+    public SimpleItem withSelectedTextTint(int selectedItemTextTint) {
+        this.selectedItemTextTint = selectedItemTextTint;
+        return this;
+    }
+
+    //为已选项目设置图标
+    public SimpleItem withIconTint(int normalItemIconTint) {
+        this.normalItemIconTint = normalItemIconTint;
+        return this;
+    }
+
+    //为已选项目设置文本
+    public SimpleItem withTextTint(int normalItemTextTint) {
+        this.normalItemTextTint = normalItemTextTint;
+        return this;
+    }
+
+
     //为视图持有者创建一个内部类
     static class ViewHolder extends DrawerAdapter.ViewHolder {
 
