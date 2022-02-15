@@ -16,7 +16,6 @@
             android:text="@string/first"
             android:textSize="35sp"
             android:textStyle="bold" />
-
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
