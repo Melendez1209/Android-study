@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">初识ViewPage</string>
-    <string name="first_viewpager">Melendez的首个ViewPager</string>
-    <string name="melendez">Melendez</string>
-    <string name="s">的</string>
-    <string name="first">首个</string>
-    <string name="viewpage">ViewPage</string>
-</resources>
