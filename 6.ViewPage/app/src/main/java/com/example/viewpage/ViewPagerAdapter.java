@@ -14,7 +14,7 @@ import java.util.List;
 
 public class ViewPagerAdapter extends RecyclerView.Adapter<ViewPagerAdapter.ViewPagerViewHolder> {
     //全局变量
-    private List<String> titles = new ArrayList<>();//用于存储String的列表
+    private final List<String> titles = new ArrayList<>();//用于存储String的列表
 
     //初始化titles
     public ViewPagerAdapter() {
@@ -40,13 +40,13 @@ public class ViewPagerAdapter extends RecyclerView.Adapter<ViewPagerAdapter.View
         return 4;//共4个页面
     }
 
-    class ViewPagerViewHolder extends RecyclerView.ViewHolder {
+    static class ViewPagerViewHolder extends RecyclerView.ViewHolder {
         TextView mTv;
-        RelativeLayout mcontainer;
+        RelativeLayout container;
 
         public ViewPagerViewHolder(@NonNull View itemView) {
             super(itemView);
-            mcontainer = itemView.findViewById(R.id.container);
+            container = itemView.findViewById(R.id.container);
             mTv = itemView.findViewById(R.id.textView);
 
         }
