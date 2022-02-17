@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="40dp"
-        android:text="@string/cardview"
+        android:text="@string/text"
         android:textSize="20sp" />
 
 </android.support.v7.widget.CardView>
