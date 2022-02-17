@@ -32,22 +32,22 @@ public class ViewPagerAdapter extends RecyclerView.Adapter<ViewPagerAdapter.View
 
     @Override
     public void onBindViewHolder(@NonNull ViewPagerViewHolder holder, int position) {
-        holder.mTv.setText(titles.get(position));
+        holder.TV.setText(titles.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return 4;//共4个页面
+        return titles.size();//几个标题就是几个界面
     }
 
     static class ViewPagerViewHolder extends RecyclerView.ViewHolder {
-        TextView mTv;
+        TextView TV;
         RelativeLayout container;
 
         public ViewPagerViewHolder(@NonNull View itemView) {
             super(itemView);
             container = itemView.findViewById(R.id.container);
-            mTv = itemView.findViewById(R.id.textView);
+            TV = itemView.findViewById(R.id.textView);
 
         }
     }
