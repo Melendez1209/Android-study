@@ -48,13 +48,13 @@ public class CardAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         String cars=carslists.get(position);
-        holder.carsname
+
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return carslists.size();
     }
 
 
