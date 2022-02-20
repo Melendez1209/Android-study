@@ -32,4 +32,17 @@ public class Service extends android.app.Service {
     public IBinder onBind(Intent intent) {
         return null;
     }
+
+
+    //Bind
+    public IBinder Bind(Intent intent) {
+        Log.d(TAG, "Bind: ");
+        return null;
+    }
+
+    @Override
+    public boolean onUnbind(Intent intent) {
+        Log.d(TAG, "onUnbind: ");
+        return super.onUnbind(intent);
+    }
 }

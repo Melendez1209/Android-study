@@ -14,11 +14,11 @@ public class Place2 extends AppCompatActivity {
         setContentView(R.layout.activity_place2);
     }
 
-    public void StartServce(View view) {
+    public void StartBindServce(View view) {
         startService(new Intent(this, Service.class));//启动服务
     }
 
-    public void StopServce(View view) {
+    public void StopBindServce(View view) {
         stopService(new Intent(this, Service.class));//停止服务
     }
 
