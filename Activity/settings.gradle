@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "认识Activity"
+rootProject.name = "Activity跳转"
 include ':app'
