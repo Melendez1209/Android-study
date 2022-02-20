@@ -10,9 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03eb4ede-01f7-4d3e-9da8-732ceba4d5eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../7.Activity/.idea/render.experimental.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../7.Activity/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../7.Activity/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../7.Activity/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../7.Activity/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../7.Activity/app/src/main/java/com/example/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../7.Activity/app/src/main/java/com/example/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../7.Activity/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../7.Activity/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../7.Activity/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../7.Activity/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

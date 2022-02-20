@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.activity">
 
     <application
@@ -18,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- 默认的activity -->
+        <!-- 默认的activity注册 -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -30,6 +31,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--Activity必须在清单文件注册-->
+        <!--Mainactivity2注册 -->
+        <activity
+            android:name=".MainActivity2"
+            tools:ignore="DuplicateActivity" />
     </application>
 
 </manifest>
