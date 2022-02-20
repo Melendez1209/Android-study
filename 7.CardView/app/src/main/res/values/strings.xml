@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">卡片布局</string>
-    <string name="text">这是一段文字</string>
-    <string name="cardview">CardView</string>
-</resources>
