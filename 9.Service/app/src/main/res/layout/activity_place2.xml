@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Place2">
+
     <Toolbar
         android:id="@+id/p1tb"
         android:layout_width="match_parent"
@@ -28,31 +29,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="StartBindServce"
-        android:text="@string/start"
+        android:text="@string/bind"
         app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="158dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="StopBindServce"
-        android:text="@string/stop"
+        android:text="@string/unbind"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="158dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="go_to_place1"
         android:text="@string/place1"
         app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/p1tb"
-        tools:ignore="MissingConstraints"
-        android:onClick="go_to_place1"
-        tools:layout_editor_absoluteX="161dp" />
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

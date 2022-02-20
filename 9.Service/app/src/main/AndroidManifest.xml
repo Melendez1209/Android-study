@@ -9,15 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.服务">
-        <activity
-            android:name=".Place2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <!--MainActivity-->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -26,7 +18,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- 后台服务 -->
+        </activity>
+        <!--Place2-->
+        <activity
+            android:name=".Place2"
+            android:exported="true" />
+        <!-- 后台服务 -->
         <service android:name=".Service" />
     </application>
 
