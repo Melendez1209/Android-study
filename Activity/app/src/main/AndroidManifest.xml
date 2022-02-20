@@ -13,6 +13,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            <!--意图（若添加的话会在桌面添加1个启动图标）-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
