@@ -21,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
     public void StopServce(View view) {
         stopService(new Intent(this, Service.class));//停止服务
     }
+
+    //跳转至领域2
+    public void go_to_place2(View view) {
+        startActivity(new Intent(this, Place2.class));
+    }
 }
