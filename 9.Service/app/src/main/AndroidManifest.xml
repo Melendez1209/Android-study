@@ -18,6 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--后台服务-->
+        <service android:name=".Service" />
     </application>
 
 </manifest>
