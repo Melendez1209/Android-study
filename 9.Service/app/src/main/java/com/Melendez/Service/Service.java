@@ -34,7 +34,7 @@ public class Service extends android.app.Service {
     }
 
 
-    //Bind
+    //Bind(绑定)
     public IBinder Bind(Intent intent) {
         Log.d(TAG, "Bind: ");
         return null;
