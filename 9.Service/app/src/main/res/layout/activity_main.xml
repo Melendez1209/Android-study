@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--领域1-->
     <Toolbar
         android:id="@+id/p1tb"
         android:layout_width="match_parent"

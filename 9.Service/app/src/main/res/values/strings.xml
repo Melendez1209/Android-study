@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">服务</string>
-    <string name="place1">领域1</string>
-    <string name="palce2">领域2</string>
     <string name="start">开始服务</string>
     <string name="stop">停止服务</string>
     <string name="palce2">领域2</string>
+    <string name="place1">领域1</string>
 </resources>
