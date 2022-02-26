@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //动态注册
         Receiver_Dynamic receiver_dynamic = new Receiver_Dynamic();
         IntentFilter filter = new IntentFilter();
         filter.addAction(ActionUtils.ACTION_EQUES_UPDATE_IP);
