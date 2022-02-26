@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">静态注册接收广播</string>
+    <string name="get_receiver">接收广播</string>
 </resources>

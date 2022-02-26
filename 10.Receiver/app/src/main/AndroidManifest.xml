@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.静态注册接收广播">
+
         <!--MainActivity-->
         <activity
             android:name=".MainActivity"
@@ -19,13 +20,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <!--静态注册接收者-->
-        <receiver android:name=".Receiver"
+        <receiver
+            android:name=".Receiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.Melendez.receiver_flag_" />
             </intent-filter>
         </receiver>
-    </application>
 
+    </application>
 </manifest>
