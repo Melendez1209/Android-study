@@ -8,10 +8,10 @@ import android.util.Log;
 //接收者
 public class Receiver extends BroadcastReceiver {
     //全局变量
-    private static final String TAG = Receiver.class.getSimpleName();
+    private static final String TAG = "Melendez" + Receiver.class.getSimpleName();
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.d(TAG, "onReceive: 广播接收者");
+        Log.e(TAG, "onReceive: 广播接收者");
     }
 }

@@ -21,12 +21,12 @@
             </intent-filter>
         </activity>
 
-        <!--静态注册接收者-->
+        <!--静态注册广播接收者-->
         <receiver
             android:name=".Receiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.Melendez.receiver_flag_" />
+                <action android:name="com.melendez.receiver_flag_" />
             </intent-filter>
         </receiver>
 
