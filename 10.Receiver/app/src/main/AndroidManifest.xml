@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.melendez.Receiver">
 
     <application
@@ -20,11 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--广播-->
-        <receiver
-            android:name=".Receiver"
-            android:exported="true"
-            tools:ignore="Instantiatable" />
+        <!--静态注册接收者-->
+        <receiver android:name=".Receiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.Melendez.receiver_flag_" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
