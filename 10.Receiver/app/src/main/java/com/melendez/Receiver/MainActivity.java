@@ -21,15 +21,18 @@ public class MainActivity extends AppCompatActivity {
         registerReceiver(receiver_dynamic, filter);
     }
 
-    //静态发送广播给接收者
+    //静态发送广播接收者
     public void send_receiver_static_state(View view) {
         Intent intent = new Intent();
         intent.setAction(ActionUtils.ACTION_FLAG);//与注册保持一致的凭证
         sendBroadcast(intent);
     }
 
-    //动态发送接收广播
+    //动态发送广播接收者
     public void send_receiver_dynamic(View view) {
-
+        Intent intent = new Intent();
+        //与注册保持一致的凭证
+        intent.setAction(ActionUtils.ACTION_EQUES_UPDATE_IP);
+        sendBroadcast(intent);
     }
 }
