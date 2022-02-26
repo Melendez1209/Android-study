@@ -20,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--广播-->
         <receiver
             android:name=".Receiver"
             android:exported="true"
