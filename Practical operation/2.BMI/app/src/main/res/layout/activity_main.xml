@@ -6,12 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="10dp"
+        android:background="@color/grey"
+        app:navigationIcon="@drawable/ic_baseline_settings_24">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
     <EditText
         android:id="@+id/hight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
+        android:drawableStart="@drawable/ic_baseline_emoji_people_24"
+        android:drawablePadding="5dp"
         android:hint="@string/hight"
+        android:inputType="numberDecimal"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -23,7 +42,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:drawableStart="@drawable/ic_baseline_web_asset_24"
+        android:drawablePadding="5dp"
         android:hint="@string/weight"
+        android:inputType="numberDecimal"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
