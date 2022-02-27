@@ -2,14 +2,14 @@
 
     <Preference
         app:fragment="com.melendez.bmi.SettingsActivity$MessagesFragment"
-        app:icon="@drawable/messages"
+        app:icon="@drawable/ic_baseline_assignment_ind_24"
         app:key="messages_header"
-        app:title="@string/messages_header" />
+        app:title="@string/me" />
 
     <Preference
         app:fragment="com.melendez.bmi.SettingsActivity$SyncFragment"
-        app:icon="@drawable/sync"
+        app:icon="@drawable/about"
         app:key="sync_header"
-        app:title="@string/sync_header" />
+        app:title="@string/about" />
 
 </PreferenceScreen>

@@ -89,7 +89,7 @@ public class SettingsActivity extends AppCompatActivity implements
 
         @Override
         public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-            setPreferencesFromResource(R.xml.messages_preferences, rootKey);
+            setPreferencesFromResource(R.xml.me, rootKey);
         }
     }
 
