@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BMI计算器</string>
+    <string name="hight">身高：</string>
+    <string name="weight">体重：</string>
+    <string name="enter">确定</string>
 </resources>
