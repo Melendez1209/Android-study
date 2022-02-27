@@ -1,6 +1,7 @@
 package com.melendez.bmi;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,9 +14,11 @@ public class SettingsActivity extends AppCompatActivity implements
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 
     private static final String TITLE_TAG = "settingsActivityTitle";
+    private static final String TAG = "Melendez";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.e(TAG, "Enter to onCreate: SettingsActivity");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings_activity);
         if (savedInstanceState == null) {
