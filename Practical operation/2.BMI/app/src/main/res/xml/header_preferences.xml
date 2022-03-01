@@ -8,7 +8,7 @@
 
     <Preference
         app:fragment="com.melendez.bmi.SettingsActivity$SyncFragment"
-        app:icon="@drawable/about"
+        app:icon="@drawable/ic_baseline_widgets_24"
         app:key="sync_header"
         app:title="@string/about" />
 
