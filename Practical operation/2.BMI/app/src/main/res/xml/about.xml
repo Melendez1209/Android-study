@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:icon="@drawable/ic_baseline_system_update_alt_24"
+        app:key="update"
+        app:summaryOff="@string/update_off"
+        app:summaryOn="@string/stop_update"
+        app:title="@string/auto_update" />
+
+    <SwitchPreferenceCompat
+        app:dependency="update"
+        app:icon="@drawable/ic_baseline_nights_stay_24"
+        app:key="night"
+        app:summaryOff="@string/attachment_summary_off"
+        app:summaryOn="@string/attachment_summary_on"
+        app:title="@string/attachment_title" />
+
+</PreferenceScreen>

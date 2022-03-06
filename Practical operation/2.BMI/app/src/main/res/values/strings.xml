@@ -8,19 +8,22 @@
     <string name="enter">确定</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
-    <!-- Preference Titles -->
+    <!-- Settings Titles -->
     <string name="me">账号</string>
     <string name="about">关于我们</string>
 
-    <!-- Messages Preferences -->
+    <!-- Me Preferences -->
     <string name="user_name">昵称</string>
     <string name="signature">个性签名</string>
 
-    <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- About Preferences -->
+    <string name="auto_update">自动更新</string>
+    <string name="update_off">开启以自动下载更新</string>
+    <string name="stop_update">关闭以停止自动下载</string>
+
+    <string name="attachment_title">夜间安装更新</string>
+    <string name="attachment_summary_off">开启以只在夜间安装</string>
+    <string name="attachment_summary_on">关闭以实时安装</string>
+
 
 </resources>
