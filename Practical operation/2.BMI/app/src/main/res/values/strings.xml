@@ -21,9 +21,13 @@
     <string name="update_off">开启以自动下载更新</string>
     <string name="stop_update">关闭以停止自动下载</string>
 
-    <string name="attachment_title">夜间安装更新</string>
-    <string name="attachment_summary_off">开启以只在夜间安装</string>
-    <string name="attachment_summary_on">关闭以实时安装</string>
+    <string name="night_title">夜间安装更新</string>
+    <string name="night_summary_off">开启以只在夜间安装</string>
+    <string name="night_summary_on">关闭以实时安装</string>
+    <string name="Feedback">意见反馈</string>
+    <string name="Bug_feedback">BUG反馈</string>
+    <string name="go_feedback">前往GitHub开源库进行意见反馈</string>
+    <string name="feed_BUG">前往GitHub开源库进行BUG反馈</string>
 
 
 </resources>
