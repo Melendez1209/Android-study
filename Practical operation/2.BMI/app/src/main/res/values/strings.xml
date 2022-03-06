@@ -26,8 +26,8 @@
     <string name="night_summary_on">关闭以实时安装</string>
     <string name="Feedback">意见反馈</string>
     <string name="Bug_feedback">BUG反馈</string>
-    <string name="go_feedback">前往GitHub开源库进行意见反馈</string>
-    <string name="feed_BUG">前往GitHub开源库进行BUG反馈</string>
+    <string name="go_feedback">前往GitHub开源库对我APP提出建议</string>
+    <string name="feed_BUG">前往GitHub开源库反馈BUG</string>
 
 
 </resources>
