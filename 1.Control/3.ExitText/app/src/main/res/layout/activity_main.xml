@@ -28,6 +28,7 @@
         android:layout_marginTop="35dp"
         android:drawableStart="@drawable/ic_baseline_login_24"
         android:text="@string/Login"
+        android:onClick="click"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
