@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         //find by id
         TextView textView = findViewById(R.id.tv);
 
-        //ValueAnimator
+        //Value Animator
         //创建属性动画
         ValueAnimator valueAnimator = ValueAnimator.ofFloat(0f, 1f);
         valueAnimator.setDuration(1500);//动画时长（毫秒）
@@ -45,19 +45,18 @@ public class MainActivity extends AppCompatActivity {
         //监听器
         objectAnimator.addListener(new Animator.AnimatorListener() {
             //动画开始时执行的函数
-
             @Override
             public void onAnimationStart(Animator animator) {
 
             }
-            //动画结束时执行的函数
 
+            //动画结束时执行的函数
             @Override
             public void onAnimationEnd(Animator animator) {
 
             }
-            //动画取消时执行的函数
 
+            //动画取消时执行的函数
             @Override
             public void onAnimationCancel(Animator animator) {
 
@@ -68,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
             public void onAnimationRepeat(Animator animator) {
 
             }
+
             //以上四个单写一个调用也可
         });
     }
