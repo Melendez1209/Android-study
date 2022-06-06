@@ -2,7 +2,7 @@
 
 ## [Android](https://developer.android.google.cn/) 作为世界上用户基数最大的移动端操作系统，它的开发者已经超过了全球的1/3，而且还在不断的推出新的功能。
 
-该操作系统所支持的开发语言仅有**Java**和**Kotlin**，但是它的开发者还在不断的探索新的功能，比如Android Nougat、Android Oreo、Android Pie等等。
+该操作系统所支持的开发语言仅有**Java**和**Kotlin**，但是它的开发者还在不断的探索新的功能。
 
 若你想入门Android开发，那么，本仓库可为你提供**Java**语言开发Android应用的必要学习资料。
 
