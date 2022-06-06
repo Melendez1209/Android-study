@@ -10,7 +10,7 @@
 
 ## 但你仔细学习完这些时，你会回来感谢我的（加个鸡腿呗，😍）
 
-当然，既然你上手了Android，那么，本仓库也可以是你的一个贴心的辅助，让你的Python编程更加简单，更加快捷。 希望你也能加入到本仓库的贡献者行列中，让我们一起学习Python，完善本仓库，一同进步！
+当然，既然你上手了Android，那么，本仓库也可以是你的一个贴心的辅助，让你的Android编程更加简单，更加快捷。 希望你也能加入到本仓库的贡献者行列中，让我们一起学习Android，完善本仓库，一同进步！
 
 ![7298f99ec9b24b6da63d98ee3ab7602](https://user-images.githubusercontent.com/92637479/169689274-517b7914-7275-40b6-b725-aa76235f67e5.jpg)
 
@@ -30,8 +30,8 @@ relevant articles.
 
 ## But when you finish studying these carefully, you will come back and thank me（Support it）
 
-Of course, now that you have started Android, this warehouse can also be a close assistant for you, making your Python
-Programming simpler and faster. I hope you can also join the ranks of contributors to this warehouse. Let's learn Python
+Of course, now that you have started Android, this warehouse can also be a close assistant for you, making your Android
+Programming simpler and faster. I hope you can also join the ranks of contributors to this warehouse. Let's learn Android
 together, improve this warehouse and make progress together!
 
 ![7298f99ec9b24b6da63d98ee3ab7602]( https://user-images.githubusercontent.com/92637479/169689274-517b7914-7275-40b6-b725-aa76235f67e5.jpg )
